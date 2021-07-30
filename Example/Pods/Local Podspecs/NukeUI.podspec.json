@@ -1,0 +1,46 @@
+{
+  "name": "NukeUI",
+  "version": "0.1.0",
+  "summary": "Lazy image loading for SwiftUI",
+  "description": "A missing piece in SwiftUI that provides lazy image loading.",
+  "homepage": "https://github.com/haifengkao/NukeUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hai Feng Kao": "haifeng@cocoaspice.in"
+  },
+  "source": {
+    "git": "https://github.com/haifengkao/NukeUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0",
+    "watchos": "5.0",
+    "osx": "10.14",
+    "tvos": "12.0"
+  },
+  "swift_versions": "5",
+  "source_files": "NukeUI/Classes/**/*",
+  "dependencies": {
+    "NukePod": [
+
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "Gifu": [
+
+      ]
+    }
+  },
+  "tvos": {
+    "dependencies": {
+      "Gifu": [
+
+      ]
+    }
+  },
+  "swift_version": "5"
+}

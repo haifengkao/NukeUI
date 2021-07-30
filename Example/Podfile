@@ -8,30 +8,15 @@ use_frameworks!
 
 def allPods
   pod 'NukeUI', :path => '../'
+  pod 'NukePod', :path => '../../NukePod'
+  pod 'Gifu'
+  pod 'SwiftSVG'
+  pod 'Alamofire'
 end
 
-target 'NukeUI (iOS)' do
-  platform :ios, '14.0'
+target 'NukeDemo' do
+  platform :ios, '13.0'
   allPods
-end
-
-target 'Tests iOS' do
-  platform :ios, '14.0'
-  allPods
-  pod 'Quick'
-    pod 'Nimble'
-end
-
-target 'NukeUI (macOS)' do
-  platform :osx, '11.0'
-  allPods
-end
-
-target 'Tests macOS' do
-  platform :osx, '11.0'
-  allPods
-  pod 'Quick'
-    pod 'Nimble'
 end
 
 post_install do |installer|

@@ -1,0 +1,6 @@
+framework module NukePod {
+  umbrella header "NukePod-umbrella.h"
+
+  export *
+  module * { export * }
+}
