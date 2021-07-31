@@ -1,6 +1,6 @@
 {
   "name": "NukeUI",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Lazy image loading for SwiftUI",
   "description": "A missing piece in SwiftUI that provides lazy image loading.",
   "homepage": "https://github.com/haifengkao/NukeUI",
@@ -13,11 +13,10 @@
   },
   "source": {
     "git": "https://github.com/haifengkao/NukeUI.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "12.0",
-    "watchos": "5.0",
     "osx": "10.14",
     "tvos": "12.0"
   },
