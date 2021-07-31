@@ -8,7 +8,7 @@ use_frameworks!
 
 def allPods
   pod 'NukeUI', :path => '../'
-  pod 'NukePod', :path => '../../NukePod'
+  pod 'NukePod'
   pod 'Gifu'
   pod 'SwiftSVG'
   pod 'Alamofire'

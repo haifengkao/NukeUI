@@ -1,7 +1,7 @@
 PODS:
   - Alamofire (5.4.3)
   - Gifu (3.3.1)
-  - NukePod (10.0.0)
+  - NukePod (10.4.0)
   - NukeUI (0.1.0):
     - Gifu
     - NukePod
@@ -10,29 +10,28 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Gifu
-  - NukePod (from `../../NukePod`)
+  - NukePod
   - NukeUI (from `../`)
   - SwiftSVG
 
-SPEC REPOS:
-  trunk:
-    - Alamofire
-    - Gifu
-    - SwiftSVG
-
 EXTERNAL SOURCES:
-  NukePod:
-    :path: "../../NukePod"
   NukeUI:
     :path: "../"
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  NukePod: a5313ff229c1c4e84c739e2edd1f80dc96938506
+  NukePod: 27e99cc5233fe555847920bd2e182e6a03f45f85
   NukeUI: 08204b5843e6c2e9528a738a012f0cd4d3c333ef
   SwiftSVG: ca7f64e403b8ea7ea8eba8c823b83ba4a059834c
 
-PODFILE CHECKSUM: 3f0e4579d706a2f9de28b97bbe4cdb629c7fd01a
+COCOAPODS: 1.10.2
 
-COCOAPODS: 1.10.1
+PODFILE CHECKSUM: aafff170f873155dd95a88c6d9cdc356df694d4f
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Gifu
+    - NukePod
+    - SwiftSVG
