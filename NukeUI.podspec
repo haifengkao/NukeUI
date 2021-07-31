@@ -31,7 +31,7 @@ A missing piece in SwiftUI that provides lazy image loading.
   # we need ios 11.0 to fix xcodebuild error
   # https://blog.csdn.net/qq_27785797/article/details/109058663
   s.ios.deployment_target = '12.0'
-  s.watchos.deployment_target = '5.0'
+  # s.watchos.deployment_target = '5.0' # see https://github.com/kean/NukeUI/issues/18
   s.osx.deployment_target = '10.14'
   s.tvos.deployment_target = '12.0'
 
